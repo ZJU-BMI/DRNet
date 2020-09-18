@@ -2,7 +2,7 @@ DRNet
 ==
 This is the code for implementing DRNet proposed in "On learning disentangled representations for individual treatment effect estimation" (under review). 
 
-It is written in python 3.7 with numpy 1.18.1 and tensorflow 1.13.1.
+It is written in python 3.7 with numpy 1.16.2 and tensorflow 1.13.1.
 
 The code of DRNet is built upon the Counterfactual regression (CFR) work of Johansson, Shalit & Sontag (2016) and Shalit, Johansson & Sontag (2016), https://github.com/clinicalml/cfrnet.
 The parameter searching, network training and evaluation follow the procedures of CFR to ensure fair comparison.
